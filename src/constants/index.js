@@ -175,6 +175,7 @@ const projects = [
     ],
     image: mediatv,
     source_code_link: "https://github.com/eranlev01/cinema-app-react",
+    live_demo_link: "https://master.d23yg1punpn4x8.amplifyapp.com/"
   },
 ];
 

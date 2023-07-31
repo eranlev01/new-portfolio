@@ -1,43 +1,67 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import support from "./support.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
-
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import python from "./tech/python.png";
-import flask from "./tech/flask.png";
-import mysql from "./tech/mysql.png";
-import typescript from "./tech/typescript.png";
-
-import easysend from "./company/easysend.png";
-import caspit from "./company/caspit.png";
-import liram from "./company/liram.png";
-import imhuston from "./company/imhuston.png";
-import mediatv from "./mediatv.png";
+const [
+  logo,
+  close,
+  menu,
+  support,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  nodejs,
+  mysql,
+  flask,
+  python,
+  mongodb,
+  git,
+  github,
+  liveLink,
+  docker,
+  easysend,
+  imhuston,
+  liram,
+  caspit,
+  mediatv,
+  herobg
+] = [
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/logo.svg",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/close.svg",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/menu.svg",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/support.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/web.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/javascript.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/typescript.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/html.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/css.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/reactjs.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/nodejs.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/mysql.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/flask.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/python.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/mongodb.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/git.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/github.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/live-icon.svg",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/tech/docker.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/easysend.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/imhuston.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/liram.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/caspit.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/mediatv.png"
+];
 
 export {
   logo,
-  backend,
-  support,
-  mobile,
-  web,
-  github,
-  menu,
   close,
+  menu,
+  support,
+  web,
   css,
   docker,
   git,
+  github,
+  liveLink,
   html,
   javascript,
   mongodb,
