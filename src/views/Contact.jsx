@@ -1,12 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
-import React, { Suspense } from "react";
+import React from "react";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-const EarthCanvas = React.lazy(() => import("./canvas/Earth"));
+import { EarthCanvas } from '../components'
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -129,9 +129,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <Suspense fallback="loading...">
           <EarthCanvas />
-        </Suspense>
       </motion.div>
     </div>
   );
