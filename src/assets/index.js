@@ -23,6 +23,7 @@ const [
   liram,
   caspit,
   mediatv,
+  eranai,
   herobg
 ] = [
   "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/logo.svg",
@@ -48,7 +49,8 @@ const [
   "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/imhuston.png",
   "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/liram.png",
   "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/company/caspit.png",
-  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/mediatv.png"
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/mediatv.png",
+  "https://el-portfolio-assets.s3.us-east-2.amazonaws.com/eranai.png"
 ];
 
 export {
@@ -75,5 +77,6 @@ export {
   imhuston,
   liram,
   caspit,
-  mediatv
+  mediatv,
+  eranai
 };
