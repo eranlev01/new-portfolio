@@ -17,7 +17,8 @@ import {
   imhuston,
   liram,
   caspit,
-  mediatv
+  mediatv,
+  eranai,
 } from "../assets";
 
 export const navLinks = [
@@ -156,7 +157,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Media-TV",
+    name: "TV-Media",
     description:
       "Web-based platform that allows users to search for movies/tv-series. The app uses code splitting and React-lazy, lazy-load-image libraries to improve performance.",
     tags: [
@@ -175,7 +176,53 @@ const projects = [
     ],
     image: mediatv,
     source_code_link: "https://github.com/eranlev01/cinema-app-react",
-    live_demo_link: "https://master.d23yg1punpn4x8.amplifyapp.com/"
+    live_demo_link: "https://master.d23yg1punpn4x8.amplifyapp.com/",
+  },
+  {
+    name: "EranAI",
+    description:
+      "Web-based AI platform that allows registered users to use an AI bot to create images, videos, code, and conversation using the openAI API. The bot can be used for free for up to five attempts, with additional attempts requiring a credit card subscription.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prismadb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerkauth",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "radixui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eranai,
+    source_code_link: "https://github.com/eranlev01/new-portfolio",
+    live_demo_link: "https://eran-ai.vercel.app/",
   },
 ];
 
