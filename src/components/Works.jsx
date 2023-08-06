@@ -8,7 +8,6 @@ import { github, liveLink } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { useState } from "react";
 
 const ProjectCard = ({
   index,
@@ -19,9 +18,6 @@ const ProjectCard = ({
   source_code_link,
   live_demo_link,
 }) => {
-
-  const [readMore, setReadMore] = useState(false);
-  const linkName = readMore ? "close " : "read more ";
 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -38,7 +34,7 @@ const ProjectCard = ({
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
-            
+
           />
           <div className="absolute flex flex-wrap justify-between w-full inset-0">
             <div className="flex justify-end m-3 card-img_hover">
