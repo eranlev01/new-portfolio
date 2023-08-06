@@ -18,7 +18,6 @@ const ProjectCard = ({
   source_code_link,
   live_demo_link,
 }) => {
-
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -34,7 +33,6 @@ const ProjectCard = ({
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
-
           />
           <div className="absolute flex flex-wrap justify-between w-full inset-0">
             <div className="flex justify-end m-3 card-img_hover">
@@ -68,9 +66,7 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="overflow-scroll paragraph mt-2 text-secondary text-[14px]">
-            {description}
-          </p>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
